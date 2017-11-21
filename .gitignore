@@ -1,0 +1,21 @@
+scene/data
+bin/
+media/
+temp/
+*.o
+*.pc
+*.ppm
+*.png
+*.jpg
+*.swp
+*.old
+CMakeCache.txt
+CMakeFiles/
+Testing/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+imgui.ini
+
+# procedurally generated source code
+src/xtcore/license.h
