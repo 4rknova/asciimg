@@ -6,7 +6,7 @@
 #include <nimg/img.h>
 
 //#define PALETTE " .,;+ltgti!lI?/\\|)(1}{][rcvzjftJUOQocxfXhqwWB8&%$#@"
-#define PALETTE " .,~\^/\:!c|(<VXL8*#&"
+#define PALETTE " .,~^/\\:!c|(<VXL8*#&"
 
 // Colors
 // ref: https://en.wikipedia.org/wiki/ANSI_escape_code#Colors
