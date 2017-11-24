@@ -29,7 +29,7 @@ int main (int argc, char ** argv)
             nimg::ColorRGBAf c = nimg::sample::bilinear(img, u, v);
             float res = nimg::eval::luminance(c);
 
-            size_t l = sizeof(ascii_glyphs);
+            size_t l = sizeof(ascii_glyphs) - 1;
 
             const char *p = ascii_glyphs + int(l * res);
             printf("%c", *p);
