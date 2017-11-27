@@ -1,9 +1,9 @@
 # asciimg
 Simple image to ascii art conversion.
 
-## Terminal integration
+## Shell integration
 
-To plot images in the terminal using all available space, add an alias in your configuration file:
+To plot images in the terminal using all available space, add an alias in your shell's configuration file:
 
 eg. for zsh:
 
