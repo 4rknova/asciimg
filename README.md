@@ -7,7 +7,7 @@ To plot images in the terminal using all available space, add an alias in your s
 
 eg. for zsh:
 
-    alias img='f() { ./asciimg "$1" ${COLUMNS}x$(echo ${LINES}-1|bc)};f'
+    alias img='f() { ./asciimg "$1" -res ${COLUMNS}x$(echo ${LINES}-1|bc)};f'
 
 ## Samples
 
