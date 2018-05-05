@@ -9,6 +9,13 @@ eg. for zsh:
 
     alias img='f() { ./asciimg "$1" -res ${COLUMNS}x$(echo ${LINES}-1|bc)};f'
 
+## Options
+
+| Switch             | Description                                                |
+|:------------------ |:---------------------------------------------------------- |
+| --res WIDTHxHEIGHT | Sets the rows and columns to use for rendering             |
+| --threshold VALUE  | Sets the intensity threshold to adjust the image contrast  |
+
 ## Samples
 
     asciimg lena.png 100x50
