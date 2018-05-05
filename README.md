@@ -11,10 +11,11 @@ eg. for zsh:
 
 ## Options
 
-| Switch             | Description                                                |
-|:------------------ |:---------------------------------------------------------- |
-| --res WIDTHxHEIGHT | Sets the rows and columns to use for rendering             |
-| --threshold VALUE  | Sets the intensity threshold to adjust the image contrast  |
+| Switch             | Description                                    |
+|:------------------ |:---------------------------------------------- |
+| --res WIDTHxHEIGHT | Sets the rows and columns to use for rendering |
+| --threshold VALUE  | Thresholds the pixel values                    |
+| --invert           | Inverts the pixel values                       |
 
 ## Samples
 
