@@ -71,5 +71,7 @@ int setup(int argc, char **argv, env_t *env)
         }
 	}
 
+	if (env->filepath == 0) return -1	
+	
 	return 0;
 }
