@@ -15,10 +15,12 @@ int main (int argc, char ** argv)
     env_t environment;
     int err = setup(argc, argv, &environment);
 
-    if (err) return -1;
+    if (err) return err;
 
     nimg::Pixmap img;
-    nimg::io::load::image(environment.filepath, img);
+    err = nimg::io::load::image(environment.filepath, img);
+    
+    if (err) return err;
 
     for (size_t y = 0; y < environment.height; ++y) {
         for (size_t x = 0; x < environment.width; ++x) {
@@ -30,7 +32,6 @@ int main (int argc, char ** argv)
             if (environment.invert) res = 1.0 - res;
 
             if (res < environment.threshold) res = 0.f;
-
 
             size_t l = sizeof(ascii_glyphs) - 1;
 
